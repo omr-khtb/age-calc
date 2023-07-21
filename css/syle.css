@@ -1,0 +1,51 @@
+body{
+background: dodgerblue linear-gradient(22deg, aqua, dodgerblue, deeppink) fixed;
+color: white;
+font: normal 32px/1.6 system-ui, sans-serif;
+text-shadow: 0 1px 1px hsl(0 0% 0% / 20%);
+margin: 3rem;
+
+}
+.everything{
+    text-align: center;
+    margin-top: 150px;
+    border: 3px aqua dashed;
+    padding: 100px;
+    padding-top: 10px;
+}
+.inputDiv{
+   text-align: center;
+}
+
+.input-text{
+  border-radius: 10px;
+  text-decoration: none;
+  color: aliceblue;
+  width:500px;
+  height: 70px;
+  font-size:  35px;
+  font:system-ui, sans-serif;
+  background: rgb(255, 255, 255) linear-gradient(22deg, rgb(255, 255, 255), rgb(4, 10, 0), deeppink) fixed;
+}
+input::placeholder {
+    font-weight: bold;
+    opacity: .5; 
+    color: rgb(99, 248, 0);
+    text-align: center;
+}
+::placeholder {
+    color: rgb(25, 0, 255);
+    opacity: 1;
+}
+
+.button{
+    border-radius: 10px;
+    margin-top: 60px;
+    width: 300px;
+    height: 60;
+    text-align: center;
+    background: rgb(255, 255, 255) linear-gradient(22deg, rgb(255, 255, 255), rgb(4, 10, 0), deeppink) fixed;
+    font-size:  35px;
+    font:system-ui, sans-serif;
+    color: aliceblue;
+}
